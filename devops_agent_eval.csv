@@ -1,9 +1,0 @@
-question,expected
-ECS cannot connect to RDS Postgres, what should I check?,Check security groups allowing ECS to RDS traffic, VPC routing or peering configuration, NACL rules, and correct database DNS endpoint.
-Terraform VPC peering route issue — what could be wrong?,Missing route table entries in one or both VPCs, restrictive security group CIDRs, or an unaccepted or misconfigured VPC peering connection.
-CrashLoopBackOff after deployment — common causes?,Application crash due to config or secret issues, failing liveness probe, or incorrect container image causing the pod to restart repeatedly.
-RDS connection timeout from EC2 — what should I verify?,Security group rules, subnet routing, NACL configuration, and correct database endpoint resolution inside the VPC.
-Why is Terraform state locked?,Terraform state may be locked due to a previous failed run or another process holding the remote backend lock.
-ECS task cannot pull image — possible reasons?,Incorrect image tag, missing ECR IAM permissions, or network connectivity issues preventing image download.
-Kubernetes service not reachable — what should I inspect?,Check service type, target port mapping, backing pod status, network policies, and DNS resolution within the cluster.
-Database DNS not resolving inside VPC — what might cause this?,Private DNS disabled, incorrect VPC DNS settings, or wrong database endpoint configuration.
